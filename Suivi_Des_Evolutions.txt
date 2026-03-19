@@ -1,0 +1,44 @@
+-------------------------------------------------------------------------------------------------
+#                                                                                               #
+#		                   HISTORIQUE DES EVOLUTIONS / CORRECTIONS 		                        #
+#							                                                                    #
+-------------------------------------------------------------------------------------------------
+Version			: V01.02.00
+Modifié par 	: CAPGEMINI
+Demandé par   	: CHAPPUIS, Pascal (105004803)
+Demandé le 		: 2022-09-14
+Demande #		: GERITM33662028
+-------------------------------------------------------------------------------------------------
+Bug dans l’application ressuage lors de la création d'un PV
+La quantité contrôlée et la quantité non-conformité est à 1 au lieu de mettre le nombre de SN. 
+-------------------------------------------------------------------------------------------------
+Version			: V01.03.00
+Modifié par 	: CAPGEMINI
+Demandé par   	: CHAPPUIS, Pascal (105004803)
+Demandé le 		: 2022-11-10
+Demande #		: GECHG1356639
+-------------------------------------------------------------------------------------------------
+Enregistrement du compteur du PV et de la date dans une table au lieu du fichier :
+"J:\DOC_PV\ListesSysteme\CFG_NumPV_XXXX.txt".
+Le but est de récupérer ces informations depuis la base et non du fichier.
+-------------------------------------------------------------------------------------------------
+Version			: V02.00.00
+Modifié par 	: CAPGEMINI
+Demandé par   	: CHAPPUIS, Pascal (105004803)
+Demandé le 		: 2023-01-09
+Demande #		: GECHG1598219
+-------------------------------------------------------------------------------------------------
+Modification de l’application pour prendre en compte la localisation de l’indication :
+ - Produit 
+ - Zone 
+ - Emplacement
+Ajouter une aide sous forme de pdf aux opérateur.
+-------------------------------------------------------------------------------------------------
+Version			: V02.01.00
+Modifié par 	: CAPGEMINI
+Demandé par   	: CHAPPUIS, Pascal (105004803)
+Demandé le 		: 2024-05-23
+Demande #		: GECHG2013671
+-------------------------------------------------------------------------------------------------
+Ajout du libellé court du constat dans le mail envoyé
+-------------------------------------------------------------------------------------------------
